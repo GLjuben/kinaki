@@ -6,4 +6,4 @@ An app made to enable users to search for movies and tv shows, as well as their 
 npm install
 npm run dev - to start the program
 ```
-I used [TheMovieDb](https://www.themoviedb.org/documentation/api) to get the needed data for the movies and series. I used two different endpoints for the mvovies and tv shows, to separate the search query. The response is the searched data with either movies and their corresponding videos and details or tv shows and their corresponding trailers and info.
+I used [TheMovieDb](https://www.themoviedb.org/documentation/api) to get the needed data for the movies and series. I used two different endpoints,one  for the movies and one for the tv shows, to separate the search query. The response is the searched data with either movies and their corresponding videos and details or tv shows and their corresponding trailers and info.
