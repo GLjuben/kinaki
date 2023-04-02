@@ -23,7 +23,7 @@ class MovieSearchController {
 
   static async searchMovieById(req, res, next) {
     try {
-      const movieId = req.params.id;
+      let movieId = req.params.id;
       const response = await axiosConfig.get(`/movie/${movieId}`);
       res.status(200).send(response.data);
     } catch (error) {
